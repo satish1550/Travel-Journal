@@ -1,38 +1,66 @@
-.App {
+.container{
+  height: 650px;
+  width: 550px;
+  position: relative;
+  margin: auto;
+  /* border: 2px solid black;*/
+}
+.header{
+  height: 55px;
+  background: #F55A5A;
+  color: white;
+  font-size: 9px;
+  padding-top: 4px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  color: #2B283A;
+  padding-left: 5px;
+  font-family: inherit;
+  line-height: 15px;
+  padding-bottom: 0px;
+  line-height: 20px;
 }
+.images{
+  height: 168px;
+  width: 125px;
+  /* border: 2px solid black; */
+  position: absolute;
+  left: 40px;
+  border-radius: 15px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.location{
+  float: left;
+  padding-top: 2px;
+  margin-left: 190px;
+  margin-top: 0px;
+  padding-right: 14px;
+  color: #2B283A;
+  font-family: Inter;
+  letter-spacing: 0.17em;
 }
-
-.App-link {
-  color: #61dafb;
+a{
+  text-decoration: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.data{
+  margin-left: 190px;
+}
+.title{
+  margin-left: 190px;
+  margin-bottom: 0px;
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 25px;
+  line-height: 30px;
+  line-height: 30px;
+}
+.stardate{
+  margin-left: 190px;
+  margin-bottom: 0px;
+  line-height: 0px;
+}
+.googleMaps{
+  font-family: Inter;
+  line-height: 0px;
 }
