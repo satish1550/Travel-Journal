@@ -3,7 +3,6 @@
   width: 550px;
   position: relative;
   margin: auto;
-  /* border: 2px solid black;*/
 }
 .header{
   height: 55px;
@@ -24,11 +23,9 @@ p{
 .images{
   height: 168px;
   width: 125px;
-  /* border: 2px solid black; */
   position: absolute;
   left: 40px;
   border-radius: 15px;
-
 }
 .location{
   float: left;
