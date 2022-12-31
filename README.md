@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Travel-Journal
+![image](https://user-images.githubusercontent.com/103049738/210129551-6efde50a-5f52-4aa1-b646-2541f0a088b3.png)
+
+
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
